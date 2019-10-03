@@ -1,0 +1,129 @@
+.hero {
+    background-color: $jellyBean;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 22%;
+    padding-right: 22%;
+    &__container {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &__title {
+        color: $white;
+        text-align: center;
+        font-family: $raleway;
+        font-weight: $light;
+    }
+    &--size--xxl {
+        font-size: $xx-large;
+        font-weight: $bold;
+        font-family: $raleway;
+    }
+}
+
+.primer {
+    background-color: $taupeGray;
+    color: $white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    &__container {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &__img {
+        position: relative;
+        width: 80%;
+        max-width: 100%;
+        height: 60%;
+    }
+}
+
+.segundo {
+    background-color: $white;
+    color: $graniteGray;
+    text-align: center;
+    padding-top: 5%;
+    &__container {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &__img {
+        position: relative;
+        width: 80%;
+        max-width: 100%;
+        height: 30%;
+    }
+}
+
+.about {
+    background-color: $white;
+    color: $graniteGray;
+    text-align: center;
+    &__container {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &__titleLarge {
+        color: $white;
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    &--Jelly {
+        background-color: $jellyBean;
+    }
+    &__img {
+        position: relative;
+        width: 30%;
+        max-width: 100%;
+        height: 60%;
+    }
+    &__description {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 5%;
+        text-align: left;
+    }
+    &__name {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.primer__text,
+.segundo__text {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+.primer__title,
+.segundo__title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    background-color: $jellyBean;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    &__container {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &__title {
+        color: $white;
+        text-align: center;
+    }
+}
